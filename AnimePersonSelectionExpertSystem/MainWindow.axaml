@@ -1,0 +1,2103 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ExpertSystemLaptopSelection.MainWindow"
+        Title="ExpertSystem">
+    
+    <TabControl Margin="5" Name="MainTabControl">
+        <!-- AA -->
+        <TabItem Header="Для чего тебе нужен выбор?" Name="AA">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="AA2" GroupName="AA" Content="Для косплея"/>
+                    <RadioButton Name="AA16" GroupName="AA" Content="Для других целей"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackGreeting" Click="BackGreetingButtonClick">На страницу приветствия</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- Start -->
+        <TabItem Header="Экспертная система выбора персонажа из аниме" Name="Start">
+            <StackPanel>
+            <Label HorizontalAlignment="Left" VerticalAlignment="Center">Выполнил студент ИСб-4</Label>
+            <Label HorizontalAlignment="Left" VerticalAlignment="Center">Саитов Роман</Label>
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" 
+                    Click="StartButtonClick"
+                    Name="StartButton">Начать выбирать персонажа</Button>
+            </StackPanel>
+        </TabItem>
+        <!-- AB -->
+        <TabItem Header="Какова популярность персонажа?" Name="AB">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="AB3" GroupName="AB" Content="Популярен сейчас"/>
+                    <RadioButton Name="AB6" GroupName="AB" Content="Был популярен, но актуален"/>
+                    <RadioButton Name="AB9" GroupName="AB" Content="Не популярен"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackAA" Click="BackAAButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- BB -->
+        <TabItem Header="Имеет ли персонаж фанбазу?" Name="BB">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="BB10" GroupName="BB" Content="Имеет"/>
+                    <RadioButton Name="BB13" GroupName="BB" Content="Не имеет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackAB3" Click="BackAB3ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- BC -->
+        <TabItem Header="Сложно ли сделать косплей?" Name="BC">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="BC11" GroupName="BC" Content="Да"/>
+                    <RadioButton Name="BC12" GroupName="BC" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackBB" Click="BackBBButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Имеет.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- BC13 -->
+        <TabItem Header="Сложно ли сделать косплей?" Name="BC13">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="BC14" GroupName="BC13" Content="Да"/>
+                    <RadioButton Name="BC15" GroupName="BC13" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackBB2" Click="BackBB2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Не имеет.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- BD -->
+        <TabItem Header="У персонажа есть реквизит?" Name="BD">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="BD43" GroupName="BD" Content="Да"/>
+                    <RadioButton Name="BD44" GroupName="BD" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackBC" Click="BackBCButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Да.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- BD14 -->
+        <TabItem Header="У персонажа есть реквизит?" Name="BD14">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="BD47" GroupName="BD14" Content="Да"/>
+                    <RadioButton Name="BD48" GroupName="BD14" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackBC13" Click="BackBC13ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Не имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Да.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- BE -->
+        <TabItem Header="Сложный ли отыгрыш персонажа?" Name="BE">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="BE45" GroupName="BE" Content="Да"/>
+                    <RadioButton Name="BE46" GroupName="BE" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackBC2" Click="BackBC2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Нет.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- BE15 -->
+        <TabItem Header="Сложный ли отыгрыш персонажа?" Name="BE15">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="BE49" GroupName="BE15" Content="Да"/>
+                    <RadioButton Name="BE50" GroupName="BE15" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackBC132" Click="BackBC132ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Не имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Нет.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ43 -->
+        <TabItem Header="Джирайя" Name="REZ43">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBD" Click="BackBDButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/Jiraya.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Да.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.У персонажа есть реквизит? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Джирайя" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме NARUTO" Margin="0,10,0,0"/>
+                    <TextBlock Text="Так-же известен как извращённый отшельник" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ44 -->
+        <TabItem Header="Лелуш Ламперуж" Name="REZ44">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBD2" Click="BackBD2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/Lelush.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Да.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.У персонажа есть реквизит? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Лелуш" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Code Geass" Margin="0,10,0,0"/>
+                    <TextBlock Text="Так-же известен как Лелуш Британский" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ45 -->
+        <TabItem Header="Беатриче" Name="REZ45">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBE" Click="BackBEButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/Beatriche.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Нет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Сложный ли отыгрыш персонажа? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Беатриче" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из игры Umineko no naku koro ni" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ46 -->
+        <TabItem Header="Арчер" Name="REZ46">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBE2" Click="BackBE2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/Archer.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Нет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Сложный ли отыгрыш персонажа? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Арчер" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Fate/stay night" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ47 -->
+        <TabItem Header="Ван" Name="REZ47">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBD14" Click="BackBD14ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/Van.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Не Имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Да.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.У персонажа есть реквизит? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Ван" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Gun x Sword" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ48 -->
+        <TabItem Header="Эксель" Name="REZ48">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBD142" Click="BackBD142ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/Excel.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Не Имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Да.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.У персонажа есть реквизит? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Эксель" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Excel Saga" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ49 -->
+        <TabItem Header="Микото Мисака" Name="REZ49">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBE15" Click="BackBE15ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/Misaka.jpeg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Не Имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Нет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Сложный ли отыгрышь персонажа? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Мисака" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме toaru majutsu no index" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ50 -->
+        <TabItem Header="Икки Курогане" Name="REZ50">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBE152" Click="BackBE152ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/ikki.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Не популярен.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Имеет ли персонаж фанбазу? - Не Имеет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Сложно ли сделать косплей? - Нет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Сложный ли отыгрышь персонажа? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Икки" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Rakudai kishi no cavalry" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- CA -->
+        <TabItem Header="Пол персонажа?" Name="CA">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="CA17" GroupName="CA" Content="Трап"/>
+                    <RadioButton Name="CA20" GroupName="CA" Content="Мужской"/>
+                    <RadioButton Name="CA24" GroupName="CA" Content="Женский"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackAA1" Click="BackAAButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- CE -->
+        <TabItem Header="Какой у персонажа характер?" Name="CE">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="CE21" GroupName="CE" Content="Приколист"/>
+                    <RadioButton Name="CE22" GroupName="CE" Content="Славный парень"/>
+                    <RadioButton Name="CE23" GroupName="CE" Content="GAR"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCA2" Click="BackCA2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Мужской.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- CE24 -->
+        <TabItem Header="Какой у персонажа характер?" Name="CE24">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="CE25" GroupName="CE24" Content="Задира"/>
+                    <RadioButton Name="CE28" GroupName="CE24" Content="Милый"/>
+                    <RadioButton Name="CE29" GroupName="CE24" Content="Игривый"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCA3" Click="BackCA3ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- DD -->
+        <TabItem Header="Злая задира?" Name="DD">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="DD26" GroupName="DD" Content="Да"/>
+                    <RadioButton Name="DD27" GroupName="DD" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCE24" Click="BackCE24ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Задира.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- DE -->
+        <TabItem Header="Злой персонаж?" Name="DE">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="DE62" GroupName="DE" Content="Да"/>
+                    <RadioButton Name="DE61" GroupName="DE" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackDD" Click="BackDDButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Задира.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Злая задира? - да.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- EA -->
+        <TabItem Header="Дразнилка задира?" Name="EA">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="EA63" GroupName="EA" Content="Да"/>
+                    <RadioButton Name="EA64" GroupName="EA" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackDD2" Click="BackDD2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Задира.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Злая задира? - Нет.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- EB -->
+        <TabItem Header="Какой у персонажа архетип?" Name="EB">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="EB73" GroupName="EB" Content="Дере-дере"/>
+                    <RadioButton Name="EB74" GroupName="EB" Content="Дандере"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCE242" Click="BackCE242ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Милый.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- EB29 -->
+        <TabItem Header="Какой у персонажа архетип?" Name="EB29">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="EB30" GroupName="EB29" Content="Яндере"/>
+                    <RadioButton Name="EB31" GroupName="EB29" Content="Кудере"/>
+                    <RadioButton Name="EB32" GroupName="EB29" Content="Цундере"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCE243" Click="BackCE243ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- EС -->
+        <TabItem Header="Причёска?" Name="EC">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="EC71" GroupName="EC" Content="Обычная"/>
+                    <RadioButton Name="EC72" GroupName="EC" Content="Необычная"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackEB29" Click="BackEB29ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Яндере.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- ED -->
+        <TabItem Header="Выглядит сонливо?" Name="ED">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="ED69" GroupName="ED" Content="Да"/>
+                    <RadioButton Name="ED70" GroupName="ED" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackEB292" Click="BackEB292ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Кудере.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- EС2 -->
+        <TabItem Header="Причёска?" Name="EC2">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="EC33" GroupName="EC2" Content="Обычная"/>
+                    <RadioButton Name="EC34" GroupName="EC2" Content="Необычная"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackEB293" Click="BackEB293ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Цундере.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- EE -->
+        <TabItem Header="Какой цвет волос?" Name="EE">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="EE67" GroupName="EE" Content="Разноцветный"/>
+                    <RadioButton Name="EE68" GroupName="EE" Content="Обычный"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackEC22" Click="BackEC22ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Цундере.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Причёска? - Обычная.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- EE2 -->
+        <TabItem Header="Какой цвет волос?" Name="EE2">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="EE65" GroupName="EE2" Content="Разноцветный"/>
+                    <RadioButton Name="EE66" GroupName="EE2" Content="Обычный"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackEC223" Click="BackEC223ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Цундере.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Причёска? - Необычная.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- DA -->
+        <TabItem Header="Друг главного героя?" Name="DA">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="DA55" GroupName="DA" Content="Да"/>
+                    <RadioButton Name="DA57" GroupName="DA" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCE" Click="BackCEButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Мужской.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Приколист.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- DB -->
+        <TabItem Header="С тяжёлым прошлым?" Name="DB">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="DB56" GroupName="DB" Content="Да"/>
+                    <RadioButton Name="DB58" GroupName="DB" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCE2" Click="BackCE2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Мужской.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Славный парень.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- DC -->
+        <TabItem Header="Из сёнен аниме?" Name="DC">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="DC59" GroupName="DC" Content="Да"/>
+                    <RadioButton Name="DC60" GroupName="DC" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCE3" Click="BackCE3ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Мужской.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - GAR.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- AC -->
+        <TabItem Header="Персонаж популярен среди кого?" Name="AC">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="AC4" GroupName="AC" Content="Женщин"/>
+                    <RadioButton Name="AC5" GroupName="AC" Content="Мужчин"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackAB" Click="BackABButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Популярен сейчас.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- AD -->
+        <TabItem Header="Персонаж из игр?" Name="AD">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="AD35" GroupName="AD" Content="Да"/>
+                    <RadioButton Name="AD36" GroupName="AD" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackAC" Click="BackACButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Популярен сейчас.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж популярен среди кого? - Женщин.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- AD5 -->
+        <TabItem Header="Персонаж из игр?" Name="AD5">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="AD37" GroupName="AD5" Content="Да"/>
+                    <RadioButton Name="AD38" GroupName="AD5" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackAC2" Click="BackAC2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ35 -->
+        <TabItem Header="Невелетт" Name="REZ35">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackAD" Click="BackADButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/Nuivelett.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Популярен сейчас.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж популярен среди кого? - Женщин.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Персонаж из игр? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Нювелетт" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из игры геншин импакт" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ36 -->
+        <TabItem Header="Сатору Годзё" Name="REZ36">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackAD2" Click="BackAD2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/Satoru.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Популярен сейчас.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж популярен среди кого? - Женщин.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Персонаж из игр? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Сатору Годзё" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Jujutsu Kaisen" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ37 -->
+        <TabItem Header="Фурина" Name="REZ37">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackAD5" Click="BackAD5ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/Furina.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Популярен сейчас.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж популярен среди кого? - Мужчин.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Персонаж из игр? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Фурина" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из игры геншин импакт" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ38 -->
+        <TabItem Header="Фрирен" Name="REZ38">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackAD52" Click="BackAD52ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/Friren.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Популярен сейчас.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж популярен среди кого? - Мужчин.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Персонаж из игр? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Фрирен" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Sousou no Frieren" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- AE -->
+        <TabItem Header="Какова актуальность персонажа?" Name="AE">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="AE7" GroupName="AE" Content="Старый персонаж"/>
+                    <RadioButton Name="AE8" GroupName="AE" Content="Новый персонаж"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackAB2" Click="BackAB2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Был популярен, но актуален.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- BA -->
+        <TabItem Header="Персонаж с какой внешностью?" Name="BA">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="BA39" GroupName="BA" Content="Азиатской"/>
+                    <RadioButton Name="BA40" GroupName="BA" Content="Не азиатской"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackAE" Click="BackAEButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Был популярен, но актуален.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какова актуальность пероснажа? - Старый персонаж.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- BA8 -->
+        <TabItem Header="Персонаж с какой внешностью?" Name="BA8">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="BA41" GroupName="BA8" Content="Азиатской"/>
+                    <RadioButton Name="BA42" GroupName="BA8" Content="Не азиатской"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackAE2" Click="BackAE2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Был популярен, но актуален.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какова актуальность пероснажа? - Современный персонаж.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ39 -->
+        <TabItem Header="Гинтоки Саката" Name="REZ39">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBA" Click="BackBAButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/Gintoki.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Был популярен, но актуален.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какова актуальность пероснажа? - Старый персонаж.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Персонаж с какой внешностью? - Азиатской.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Гинтоки Саката" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме GINTAMA" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ40 -->
+        <TabItem Header="Асуна Юки" Name="REZ40">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBA2" Click="BackBA2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/Asuna.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Был популярен, но актуален.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какова актуальность пероснажа? - Старый персонаж.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Персонаж с какой внешностью? - Не азиатской.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Асуна Юки" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Sword Art Online" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ41 -->
+        <TabItem Header="Сайтама" Name="REZ41">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBA8" Click="BackBA8ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/Saitama.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Был популярен, но актуален.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какова актуальность пероснажа? - Современный.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Персонаж с какой внешностью? - Азиатской.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Сайтама" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме One Punch Man" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ42 -->
+        <TabItem Header="Тошинори Яги" Name="REZ42">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackBA82" Click="BackBA82ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/AllMight.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для косплея.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какова популярность персонажа? - Был популярен, но актуален.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какова актуальность пероснажа? - Современный.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Персонаж с какой внешностью? - Не азиатской.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Тошинори Яги" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме My hero academia" Margin="0,10,0,0"/>
+                    <TextBlock Text="Так-же известен как Всмеогущий" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- CB -->
+        <TabItem Header="Персонаж стесняшка?" Name="CB">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="CA18" GroupName="CB" Content="Да"/>
+                    <RadioButton Name="CA19" GroupName="CB" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCA" Click="BackCAButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Трап.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- CС -->
+        <TabItem Header="Имеет ли половую принадлежность?" Name="CC">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="CC51" GroupName="CC" Content="Да"/>
+                    <RadioButton Name="CC52" GroupName="CC" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCB" Click="BackCBButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Трап.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж стесняшка? - Да.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- CD -->
+        <TabItem Header="Персонаж озорной?" Name="CD">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton Name="CD53" GroupName="CD" Content="Да"/>
+                    <RadioButton Name="CD54" GroupName="CD" Content="Нет"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCB2" Click="BackCB2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Трап.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж стесняшка? - Нет.</Label>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ53 -->
+        <TabItem Header="Астольфо" Name="REZ53">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackCD" Click="BackCDButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/astolfo.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Трап.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж стесняшка? - Нет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Персонаж озорной? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Астольфо" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Fate/Apocryph" Margin="0,10,0,0"/>
+                    <TextBlock Text="Является парнем" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ54 -->
+        <TabItem Header="Венти" Name="REZ54">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackCD2" Click="BackCD2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/venti.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Трап.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж стесняшка? - Нет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Персонаж озорной? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Венти" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из игры Genshin Impact" Margin="0,10,0,0"/>
+                    <TextBlock Text="Является парнем" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ51 -->
+        <TabItem Header="Сайка Тотсука" Name="REZ51">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackCC" Click="BackCCButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/totsuka.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Трап.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж стесняшка? - Да.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Имеет ли половую принадлежность? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Сайка Тотсука" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме OreGairu" Margin="0,10,0,0"/>
+                    <TextBlock Text="Является парнем" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ52 -->
+        <TabItem Header="Гаутер" Name="REZ52">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackCC2" Click="BackCC2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/gowther.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Трап.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Персонаж стесняшка? - Да.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Имеет ли половую принадлежность? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Гаутер" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Seven Deadly Sins" Margin="0,10,0,0"/>
+                    <TextBlock Text="Является куклой" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ55 -->
+        <TabItem Header="Бан" Name="REZ55">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackDA" Click="BackDAButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/Ban.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Мужской.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Приколист.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Друг главного героя? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Бан" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Seven Deadly Sins" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ57 -->
+        <TabItem Header="Казума Сато" Name="REZ57">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackDA2" Click="BackDA2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/kazuma.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Мужской.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Приколист.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Друг главного героя? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Казума" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Konosuba" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ56 -->
+        <TabItem Header="Вэш Ураган" Name="REZ56">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackDB" Click="BackDBButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/Vash.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Мужской.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Славный парень.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С тяжёлым прошлым? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Вэш" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Vash The Stampede" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ58 -->
+        <TabItem Header="Усопп" Name="REZ58">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackDB2" Click="BackDB2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/usopp.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Мужской.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Славный парень.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.С тяжёлым прошлым? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Усопп" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме One Piece" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ59 -->
+        <TabItem Header="Ренджи Абараи" Name="REZ59">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackDC" Click="BackDCButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/renji.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Мужской.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - GAR.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Из сёнен аниме? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Ренджи Абараи" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Bleach" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ60 -->
+        <TabItem Header="Мусаси Миямото" Name="REZ60">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackDC2" Click="BackDC2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/musashi.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Мужской.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - GAR.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Из сёнен аниме? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Миямото Мусаси" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из манги Vagabond" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ61 -->
+        <TabItem Header="Эсдет" Name="REZ61">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackDE" Click="BackDEButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/esdeath.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Задира.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Злая задира? - Да.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Злой персонаж? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Эсдет" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Akame Ga kiru" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ62 -->
+        <TabItem Header="Макима" Name="REZ62">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackDE2" Click="BackDE2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/makima.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Задира.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Злая задира? - Да.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Злой персонаж? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Макима" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Chainsaw Man" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ63 -->
+        <TabItem Header="Такаги-сан" Name="REZ63">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackEA" Click="BackEAButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/takagi.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Задира.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Злая задира? - Нет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Дразнилка-задира? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Такаги-сан" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Karakai Jouzu no Takagi-san" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ64 -->
+        <TabItem Header="Момо" Name="REZ64">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackEA2" Click="BackEA2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/momo.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Задира.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Злая задира? - Нет.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Дразнилка-задира? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Момо Велия Девилюк" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме To-Love ru" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ73 -->
+        <TabItem Header="Йо Ватанабе" Name="REZ73">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackEB" Click="BackEBButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/you.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Милый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Дере-дере.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Йо Ватанабе" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Love Live " Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ73 -->
+        <TabItem Header="Хината Хьюга" Name="REZ74">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackEB2" Click="BackEB2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="10" Height="500" Width="500" Source="./Image/hinata.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Милый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Дандере.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Хината Хьюга" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме NARUTO" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ71 -->
+        <TabItem Header="Кирукиру Амо" Name="REZ71">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackEC" Click="BackECButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/kirukiru.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Милый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Яндере.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Причёска? - Обычная.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Кирукиру Амо" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Busou Shoujo Machiavellianism" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ72 -->
+        <TabItem Header="Юно Гасай" Name="REZ72">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackEC2" Click="BackEC2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/yuno.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Милый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Яндере.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Причёска? - Необычная.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Юно Гасай" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Mirai Nikki" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ69 -->
+        <TabItem Header="Сая Сасамия" Name="REZ69">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackED" Click="BackEDButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/Saya.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Кудере.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Выглядит сонливо? - Да.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Сая Сасамия" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Gakuen toshi Asterisk" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ70 -->
+        <TabItem Header="Карен Ортензия" Name="REZ70">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackED2" Click="BackED2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="0" Height="500" Width="500" Source="./Image/caren.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Кудере.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Выглядит сонливо? - Нет.</Label>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Карен ортензия" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из игры Fate/Hollow Ataraxia" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ67 -->
+        <TabItem Header="Читоге Кирисаки" Name="REZ67">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackEE" Click="BackEEButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="-10" Height="500" Width="500" Source="./Image/chitoge.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Цундере.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Причёска? - Обычная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой цвет волос? - Разноцветный.</Label>
+
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Читоге Кирисаки" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Nisekoi" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ68 -->
+        <TabItem Header="Ироха Исшики" Name="REZ68">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackEE1" Click="BackEE1ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="-10" Height="500" Width="500" Source="./Image/irohasu.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Цундере.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Причёска? - Обычная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой цвет волос? - Обычный.</Label>
+
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Ироха Исшики" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме OreGairu" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ65 -->
+        <TabItem Header="Аска Лэнгли Сурью" Name="REZ65">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackEE2" Click="BackEE2ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="-10" Height="500" Width="500" Source="./Image/asuka.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Цундере.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Причёска? - Необычная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой цвет волос? - Разноцветный.</Label>
+
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Аска Лэнгли Сурью" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Evangelion" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+        <!-- REZ66 -->
+        <TabItem Header="Рин Тосака" Name="REZ66">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Click="StartButtonClick">На первоначальный вопрос</Button>
+                    <Button Name="BackEE23" Click="BackEE23ButtonClick">На предыдущий вопрос</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+            <Grid>
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image HorizontalAlignment="Left" Margin="-10" Height="500" Width="500" Source="./Image/Rin.jpg"/>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Цепочка логического вывода</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего тебе нужен выбор? - Для других целей.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Пол персонажа? - Женский.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какой у персонажа характер? - Игривый.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой у персонажа архетип? - Цундере.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Причёска? - Необычная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой цвет волос? - Обычный.</Label>
+
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Персонаж: Рин Тосака" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Родом из аниме Fate/Stay Night" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid> 
+                </StackPanel>
+            </Grid>
+        </TabItem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </TabControl>
+</Window>

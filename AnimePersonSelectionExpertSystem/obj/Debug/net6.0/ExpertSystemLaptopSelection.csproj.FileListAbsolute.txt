@@ -1,0 +1,786 @@
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.deps.json
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.runtimeconfig.json
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.pdb
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Base.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.DesignerSupport.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Dialogs.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Markup.Xaml.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Markup.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Metal.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.MicroCom.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.OpenGL.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.ColorPicker.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.DataGrid.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Desktop.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Diagnostics.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Fonts.Inter.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.FreeDesktop.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Native.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Remote.Protocol.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Skia.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Themes.Fluent.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Themes.Simple.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Win32.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.X11.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/HarfBuzzSharp.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/MicroCom.Runtime.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/SkiaSharp.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/System.Drawing.Common.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/System.IO.Pipelines.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/Tmds.DBus.Protocol.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/av_libglesv2.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/av_libglesv2.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/av_libglesv2.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libAvaloniaNative.dylib
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm/native/libSkiaSharp.so
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm64/native/libSkiaSharp.so
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-x64/native/libSkiaSharp.so
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libSkiaSharp.dylib
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/libSkiaSharp.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/libSkiaSharp.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.AssemblyReference.cache
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/resources
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.GeneratedMSBuildEditorConfig.editorconfig
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.AssemblyInfoInputs.cache
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.AssemblyInfo.cs
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.CoreCompileInputs.cache
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/references
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.pdb
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.ref.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/refint/ExpertSystemLaptopSelection.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.dll
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.pdb
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.CopyComplete
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.genruntimeconfig.cache
+/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/Debug/net6.0/ref/ExpertSystemLaptopSelection.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.deps.json
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.runtimeconfig.json
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.pdb
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Base.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.DesignerSupport.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Dialogs.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Markup.Xaml.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Markup.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Metal.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.MicroCom.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.OpenGL.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.ColorPicker.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.DataGrid.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Desktop.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Diagnostics.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Fonts.Inter.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.FreeDesktop.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Native.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Remote.Protocol.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Skia.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Themes.Fluent.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Themes.Simple.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Win32.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.X11.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/HarfBuzzSharp.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/MicroCom.Runtime.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/SkiaSharp.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/System.Drawing.Common.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/System.IO.Pipelines.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/Tmds.DBus.Protocol.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/av_libglesv2.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/av_libglesv2.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/av_libglesv2.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libAvaloniaNative.dylib
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm/native/libSkiaSharp.so
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm64/native/libSkiaSharp.so
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-x64/native/libSkiaSharp.so
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libSkiaSharp.dylib
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/libSkiaSharp.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/libSkiaSharp.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.AssemblyReference.cache
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/resources
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.GeneratedMSBuildEditorConfig.editorconfig
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.AssemblyInfoInputs.cache
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.AssemblyInfo.cs
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.CoreCompileInputs.cache
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/references
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.pdb
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.ref.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/refint/ExpertSystemLaptopSelection.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.dll
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.pdb
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.CopyComplete
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.genruntimeconfig.cache
+/home/artem/Рабочий стол/ExpertSystemLaptopSelection/obj/Debug/net6.0/ref/ExpertSystemLaptopSelection.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.deps.json
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.runtimeconfig.json
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.pdb
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Base.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.DesignerSupport.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Dialogs.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Markup.Xaml.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Markup.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Metal.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.MicroCom.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.OpenGL.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.ColorPicker.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.DataGrid.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Desktop.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Diagnostics.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Fonts.Inter.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.FreeDesktop.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Native.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Remote.Protocol.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Skia.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Themes.Fluent.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Themes.Simple.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Win32.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.X11.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/HarfBuzzSharp.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/MicroCom.Runtime.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/SkiaSharp.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/System.Drawing.Common.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/System.IO.Pipelines.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/Tmds.DBus.Protocol.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/av_libglesv2.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/av_libglesv2.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/av_libglesv2.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libAvaloniaNative.dylib
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm/native/libSkiaSharp.so
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm64/native/libSkiaSharp.so
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-x64/native/libSkiaSharp.so
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libSkiaSharp.dylib
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/libSkiaSharp.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/libSkiaSharp.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.AssemblyReference.cache
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/resources
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.GeneratedMSBuildEditorConfig.editorconfig
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.AssemblyInfoInputs.cache
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.AssemblyInfo.cs
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.CoreCompileInputs.cache
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/references
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.pdb
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.ref.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/refint/ExpertSystemLaptopSelection.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.dll
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.pdb
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.CopyComplete
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.genruntimeconfig.cache
+/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/Debug/net6.0/ref/ExpertSystemLaptopSelection.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.deps.json
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.runtimeconfig.json
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ExpertSystemLaptopSelection.pdb
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Base.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.DesignerSupport.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Dialogs.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Markup.Xaml.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Markup.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Metal.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.MicroCom.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.OpenGL.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.ColorPicker.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Controls.DataGrid.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Desktop.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Diagnostics.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Fonts.Inter.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.FreeDesktop.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Native.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Remote.Protocol.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Skia.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Themes.Fluent.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Themes.Simple.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.Win32.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Avalonia.X11.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/HarfBuzzSharp.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/MicroCom.Runtime.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/SkiaSharp.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/System.Drawing.Common.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/System.IO.Pipelines.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/Tmds.DBus.Protocol.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/av_libglesv2.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/av_libglesv2.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/av_libglesv2.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libAvaloniaNative.dylib
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm/native/libSkiaSharp.so
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-arm64/native/libSkiaSharp.so
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/linux-x64/native/libSkiaSharp.so
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/osx/native/libSkiaSharp.dylib
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x64/native/libSkiaSharp.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win-x86/native/libSkiaSharp.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.AssemblyReference.cache
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/resources
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.AssemblyInfoInputs.cache
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.AssemblyInfo.cs
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.CoreCompileInputs.cache
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/references
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.pdb
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/Avalonia/original.ref.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/refint/ExpertSystemLaptopSelection.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.dll
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.pdb
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.csproj.CopyComplete
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/ExpertSystemLaptopSelection.genruntimeconfig.cache
+/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/Debug/net6.0/ref/ExpertSystemLaptopSelection.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ExpertSystemLaptopSelection.exe
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ExpertSystemLaptopSelection.deps.json
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ExpertSystemLaptopSelection.runtimeconfig.json
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ExpertSystemLaptopSelection.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ExpertSystemLaptopSelection.pdb
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Base.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Controls.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.DesignerSupport.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Dialogs.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Markup.Xaml.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Markup.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Metal.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.MicroCom.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.OpenGL.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Controls.ColorPicker.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Controls.DataGrid.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Desktop.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Diagnostics.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Fonts.Inter.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.FreeDesktop.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Native.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Remote.Protocol.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Skia.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Themes.Fluent.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Themes.Simple.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.Win32.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Avalonia.X11.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\HarfBuzzSharp.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\MicroCom.Runtime.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\SkiaSharp.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\Tmds.DBus.Protocol.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win-x64\native\av_libglesv2.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win-x86\native\av_libglesv2.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\ExpertSystemLaptopSelection.csproj.AssemblyReference.cache
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\Avalonia\Resources.Inputs.cache
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\Avalonia\resources
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\ExpertSystemLaptopSelection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\ExpertSystemLaptopSelection.AssemblyInfoInputs.cache
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\ExpertSystemLaptopSelection.AssemblyInfo.cs
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\ExpertSystemLaptopSelection.csproj.CoreCompileInputs.cache
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\Avalonia\references
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\Avalonia\original.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\Avalonia\original.pdb
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\Avalonia\original.ref.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\refint\ExpertSystemLaptopSelection.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\ExpertSystemLaptopSelection.dll
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\ExpertSystemLaptopSelection.pdb
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\ExpertSystemLaptopSelection.csproj.CopyComplete
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\ExpertSystemLaptopSelection.genruntimeconfig.cache
+C:\Users\Rombik Smart\Desktop\ExpertSystemLaptopSelection\obj\Debug\net6.0\ref\ExpertSystemLaptopSelection.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ExpertSystemLaptopSelection.exe
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ExpertSystemLaptopSelection.deps.json
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ExpertSystemLaptopSelection.runtimeconfig.json
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ExpertSystemLaptopSelection.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ExpertSystemLaptopSelection.pdb
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Base.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Controls.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.DesignerSupport.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Dialogs.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Markup.Xaml.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Markup.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Metal.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.MicroCom.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.OpenGL.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Controls.ColorPicker.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Controls.DataGrid.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Desktop.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Diagnostics.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Fonts.Inter.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.FreeDesktop.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Native.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Remote.Protocol.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Skia.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Themes.Fluent.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Themes.Simple.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.Win32.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Avalonia.X11.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\HarfBuzzSharp.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\MicroCom.Runtime.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\SkiaSharp.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\Tmds.DBus.Protocol.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win-x64\native\av_libglesv2.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win-x86\native\av_libglesv2.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Artem\Desktop\Rombik\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\ExpertSystemLaptopSelection.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\Avalonia\Resources.Inputs.cache
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\Avalonia\resources
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\ExpertSystemLaptopSelection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\ExpertSystemLaptopSelection.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\ExpertSystemLaptopSelection.AssemblyInfo.cs
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\ExpertSystemLaptopSelection.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\Avalonia\references
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\Avalonia\original.dll
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\Avalonia\original.pdb
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\Avalonia\original.ref.dll
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\refint\ExpertSystemLaptopSelection.dll
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\ExpertSystemLaptopSelection.dll
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\ExpertSystemLaptopSelection.pdb
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\ExpertSystemLaptopSelection.csproj.CopyComplete
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\ExpertSystemLaptopSelection.genruntimeconfig.cache
+C:\Users\Artem\Desktop\Rombik\obj\Debug\net6.0\ref\ExpertSystemLaptopSelection.dll
