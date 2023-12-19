@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y28BFBxPpn22SGGhJeqgq6KXxNgGI5TslShIJb08e954CDeFRHiZqsp7fqDQpjKgFgwRhMvJS/lTzyu7Khed1w==",
+  "dgSpecHash": "5KxJ5ZRbX39LESJoKARSSPfLBjivtyXM+IgME/8IyWUeaWNe5J0xUPWRwtI99kfg/AIA+aIBUTvi2w42mpyOog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Artem\\Desktop\\Rombik\\ExpertSystemLaptopSelection.csproj",
+  "projectFilePath": "C:\\Users\\Artem\\Desktop\\Rombik\\AnimePersonSelectionExpertSystem\\ExpertSystemLaptopSelection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artem\\.nuget\\packages\\avalonia\\11.0.2\\avalonia.11.0.2.nupkg.sha512",
     "C:\\Users\\Artem\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

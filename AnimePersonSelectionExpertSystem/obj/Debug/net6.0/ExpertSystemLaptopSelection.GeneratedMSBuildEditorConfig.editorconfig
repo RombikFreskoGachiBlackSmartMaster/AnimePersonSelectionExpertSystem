@@ -13,10 +13,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ExpertSystemLaptopSelection
-build_property.ProjectDir = C:\Users\Artem\Desktop\Rombik\
+build_property.ProjectDir = C:\Users\Artem\Desktop\Rombik\AnimePersonSelectionExpertSystem\
 
-[C:/Users/Artem/Desktop/Rombik/App.axaml]
+[C:/Users/Artem/Desktop/Rombik/AnimePersonSelectionExpertSystem/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Artem/Desktop/Rombik/MainWindow.axaml]
+[C:/Users/Artem/Desktop/Rombik/AnimePersonSelectionExpertSystem/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

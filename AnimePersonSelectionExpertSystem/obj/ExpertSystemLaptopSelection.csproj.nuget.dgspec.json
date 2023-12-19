@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Artem\\Desktop\\Rombik\\ExpertSystemLaptopSelection.csproj": {}
+    "C:\\Users\\Artem\\Desktop\\Rombik\\AnimePersonSelectionExpertSystem\\ExpertSystemLaptopSelection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Artem\\Desktop\\Rombik\\ExpertSystemLaptopSelection.csproj": {
+    "C:\\Users\\Artem\\Desktop\\Rombik\\AnimePersonSelectionExpertSystem\\ExpertSystemLaptopSelection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Artem\\Desktop\\Rombik\\ExpertSystemLaptopSelection.csproj",
+        "projectUniqueName": "C:\\Users\\Artem\\Desktop\\Rombik\\AnimePersonSelectionExpertSystem\\ExpertSystemLaptopSelection.csproj",
         "projectName": "ExpertSystemLaptopSelection",
-        "projectPath": "C:\\Users\\Artem\\Desktop\\Rombik\\ExpertSystemLaptopSelection.csproj",
+        "projectPath": "C:\\Users\\Artem\\Desktop\\Rombik\\AnimePersonSelectionExpertSystem\\ExpertSystemLaptopSelection.csproj",
         "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Artem\\Desktop\\Rombik\\obj\\",
+        "outputPath": "C:\\Users\\Artem\\Desktop\\Rombik\\AnimePersonSelectionExpertSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
